@@ -15,10 +15,11 @@ export default function Contact() {
 
     const form = useRef();
     const [formSent, setFormSent] = useState(false);
-
+    console.log(process.env);
 
     const sendEmail = (e) => {
         e.preventDefault();
+        console.log(serviceID, templateID, publicKey);
 
         emailjs
             .sendForm(
