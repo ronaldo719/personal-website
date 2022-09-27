@@ -113,29 +113,30 @@ class App extends Component {
               </div>
               <div className="sectionInformation">
 
-                <h2 className="leftTitle">Mary's Hair Salon </h2>
+                <h2 className="leftTitle">Mary's Hair Cuts </h2>
                 <p className="subInfo">
-                  <i> Replit IDE, Next.js, React.js, Twitch API	</i>  - Summer 2021
+                  <i> (MERN) MongoDB, Express.js, React.js, Node.js		</i>  - Summer 2022
              </p>
                 <ul className="resumeBullet">
-                  <li>Collaborated on a next.js web app that connects to the Twitch API and database to help a user track their favorite streamers.
+                  <li>Built a webapp for my mother’s hair salon with an appointment schedular feature to allow clients to book appointments.
 </li>
-                  <li>Developed a custom API to obtain the twitch channel data from the Twitch API after a user enters a streamer's name.</li>
-                  <li>  Built a function to storage our Streamer data onto the Replit database.  </li>
+                  <li>Developed a rest API using Express.js to connect to my MongoDB database to store appointments.</li>
+                  <li> Utilized Twilio and EmailJS APIs to send SMS appointments confirmations and contact us emails.   </li>
                 </ul>
               </div>
 
               <div className="sectionInformation">
 
-                <h2 className="leftTitle">Android App </h2>
+                <h2 className="leftTitle">ZooSeeker Android App </h2>
                 <p className="subInfo">
-                  <i> Replit IDE, Next.js, React.js, Twitch API	</i>  - Summer 2021
+                  <i> Java, Android, GIT, Junit		</i>  - Spring 2022
              </p>
                 <ul className="resumeBullet">
-                  <li>Collaborated on a next.js web app that connects to the Twitch API and database to help a user track their favorite streamers.
+                  <li>ZooSeeker is an Android app allowing users to determine the optimal route to visit their desired exhibits at the San Diego Zoo with the least walking possible.
 </li>
-                  <li>Developed a custom API to obtain the twitch channel data from the Twitch API after a user enters a streamer's name.</li>
-                  <li>  Built a function to storage our Streamer data onto the Replit database.  </li>
+                  <li>	Responsible for implementing ---Developed a custom API to obtain the twitch channel data from the Twitch API after a user enters a streamer's name.</li>
+                  <li> Deployed agile development principles into practice using GitHub and ZenHub in order to allow team of 6 programmers to effectively work together to develop application.  </li>
+                  <li> Built unit, integration, and systems tests in Android Studio through JUnit, Espresso, and Robolectric.</li>
                 </ul>
               </div>
               <div className="sectionInformation">
@@ -225,11 +226,11 @@ class App extends Component {
                   <h2 className="skillsCategory">Programming Languages</h2>
                   <p className="skillsTitle">Java</p>
                   <div className="progressBar">
-                    <div className="progressBarStatus" style={{ height: '24px', width: '80%' }} ></div>
+                    <div className="progressBarStatus" style={{ height: '24px', width: '70%' }} ></div>
                   </div>
                   <p className="skillsTitle">C++</p>
                   <div className="progressBar">
-                    <div className="progressBarStatus" style={{ height: '24px', width: '80%' }} ></div>
+                    <div className="progressBarStatus" style={{ height: '24px', width: '70%' }} ></div>
                   </div>
                   <p className="skillsTitle">Python</p>
                   <div className="progressBar">
@@ -237,7 +238,7 @@ class App extends Component {
                   </div>
                   <p className="skillsTitle">C</p>
                   <div className="progressBar">
-                    <div className="progressBarStatus" style={{ height: '24px', width: '70%' }} ></div>
+                    <div className="progressBarStatus" style={{ height: '24px', width: '60%' }} ></div>
                   </div>
                 </div>
               </div>
