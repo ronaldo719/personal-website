@@ -50,7 +50,7 @@ class App extends Component {
           <div className="leftSideAbout">
             <h2>About me</h2>
             <p className="bioSection">
-              I started my computer science journey at my local community college, where I discovered computer science, and after three years, I transferred to the University of California, San Diego. During my first and second years, I explored the different fields of computer science through the extensive and rigorous courses offered here. As a result, I developed an interest in software development and cyber security.
+              I started my computer science journey at my local community college, where I discovered computer science, and after three years, I transferred to the University of California, San Diego. During my first and second years, I explored the different fields of computer science through the extensive and rigorous courses offered here. As a result, I developed an interest in software development and cyber security.Hello
               <br></br>
               <br></br>
               Outside of school and coding, I am a soccer player, boxer, and casual gamer. Also, I have been watching and enjoying the House of the Dragons series.
