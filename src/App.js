@@ -124,6 +124,7 @@ class App extends Component {
                   <li>Built a webapp for my mother’s hair salon with an appointment schedular feature to allow clients to book appointments.
 </li>
                   <li>Developed a rest API using Express.js to connect to my MongoDB database to store appointments.</li>
+                  <li> Im Twilio and EmailJS APIs to send SMS appointments confirmations and contact us emails.   </li>
                   <li> Utilized Twilio and EmailJS APIs to send SMS appointments confirmations and contact us emails.   </li>
                 </ul>
               </div>
@@ -152,7 +153,7 @@ class App extends Component {
                   <li>Collaborated on a next.js web app that connects to the Twitch API and database to help a user track their favorite streamers.
 </li>
                   <li>Developed a custom API to obtain the twitch channel data from the Twitch API after a user enters a streamer's name.</li>
-                  <li>  Built a function to storage our Streamer data onto the Replit database.  </li>
+                  <li>  Built a function to storage our Streamer data onto the Replit database. </li>
                 </ul>
               </div>
 
@@ -165,7 +166,7 @@ class App extends Component {
                 <ul className="resumeBullet">
                   <li>Built a weather webapp to display the weather of major cities around the world by utilizing the MetaWeather API.
 </li>
-                  <li>Utilized the jQuery getJSON function to turn the weather sevrer data into JSON data. </li>
+                  <li>Utilized the jQuery getJSON function to turn the weather server data into JSON data. </li>
                   <li>Implemented Google Translate API which allows users to switch to their native language.  </li>
                 </ul>
               </div>
