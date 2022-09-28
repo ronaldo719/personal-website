@@ -50,8 +50,11 @@ class App extends Component {
           <div className="leftSideAbout">
             <h2>About me</h2>
             <p className="bioSection">
-              Use this bio section as your way of describing yourself and saying what you do, what technologies you like to use or feel most comfortable with, describing your personality, or whatever else you feel like throwing in.
-          </p>
+              I started my computer science journey at my local community college, where I discovered computer science, and after three years, I transferred to the University of California, San Diego. During my first and second years, I explored the different fields of computer science through the extensive and rigorous courses offered here. As a result, I developed an interest in software development and cyber security.
+              <br></br>
+              <br></br>
+              Outside of school and coding, I am a soccer player, boxer, and casual gamer. Also, I have been watching and enjoying the House of the Dragons series.
+            </p>
 
             <div class="aboutGrid">
               <div class="div1"><FontAwesomeIcon icon={faLocationDot} />  <span className="bulletPoints"> <strong className="bulletTitles">Location:</strong> San Diego, CA</span></div>

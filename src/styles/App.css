@@ -101,6 +101,7 @@ a {
 .aboutGrid {
   text-align: left;
    color: rgba(209,213,219);
+   margin-top: 1.5rem;
    font-size: 0.9rem;
 }
 
@@ -127,6 +128,10 @@ a {
   text-decoration-color: rgba(249,115,22);
   text-decoration-skip: 4px;
   text-decoration-thickness: 2px;
+}
+
+.resumeBullet {
+  line-height: 1.4rem;
 }
 
 .leftTitle {
@@ -555,7 +560,7 @@ i {
 }
 
 .rightSideAbout {
-  width: 20%;
+  width: 30%;
   margin: 0;
   margin-right: 10%;
 }
@@ -567,7 +572,7 @@ i {
 }
 
 .leftSideAbout {
-  width: 70%;
+  width: 60%;
   padding: 0;
   text-align: left;
 }
@@ -749,7 +754,6 @@ grid-row-gap: 15px;
 
 
 .resumeBullet {
-  /* margin: 0; */
   padding-left: 1rem;
 }
 
