@@ -50,7 +50,7 @@ class App extends Component {
           <div className="leftSideAbout">
             <h2>About me</h2>
             <p className="bioSection">
-              I started my computer science journey at my local community college, where I discovered computer science, and after three years, I transferred to the University of California, San Diego. During my first and second years, I explored the different fields of computer science through the extensive and rigorous courses offered here. As a result, I developed an interest in software development and cyber security.Hello
+              I started my computer science journey at my local community college, where I discovered computer science, and after three years, I transferred to the University of California, San Diego. During my first and second years, I explored the different fields of computer science through the extensive and rigorous courses offered here. As a result, I developed an interest in software development and cyber security.
               <br></br>
               <br></br>
               Outside of school and coding, I am a soccer player, boxer, and casual gamer. Also, I have been watching and enjoying the House of the Dragons series.
@@ -105,6 +105,7 @@ class App extends Component {
                 <h2 className="leftTitle">UC San Diego Early Research Scholars Program  </h2>
                 <p className="subInfo">
                   <i>Research Mentee	</i>  - September 2020 – June 2021
+
              </p>
                 <ul className="resumeBullet">
                   <li>Worked on a research project, which focused on analyzing the difficulties of non-native speakers in computer science.
@@ -116,9 +117,10 @@ class App extends Component {
               </div>
               <div className="sectionInformation">
 
-                <h2 className="leftTitle">Mary's Hair Cuts </h2>
+                <h2 className="leftTitle">Mary's Hair Cuts <a href="https://maryswebsite.netlify.app" target="_blank"><i className="websiteLink"> Live Website</i></a>  </h2>
                 <p className="subInfo">
                   <i> (MERN) MongoDB, Express.js, React.js, Node.js		</i>  - Summer 2022
+
              </p>
                 <ul className="resumeBullet">
                   <li>Built a webapp for my mother’s hair salon with an appointment schedular feature to allow clients to book appointments.
@@ -145,23 +147,23 @@ class App extends Component {
               </div>
               <div className="sectionInformation">
 
-                <h2 className="leftTitle">Personalized Twitch Dashboard </h2>
+                <h2 className="leftTitle">Personalized Twitch Dashboard <a href="https://personalized-twitch-dashboard.ronaldo719.repl.co/" target="_blank"><i className="websiteLink"> Live Website</i></a>  </h2>
                 <p className="subInfo">
                   <i> Replit IDE, Next.js, React.js, Twitch API	</i>  - Summer 2021
              </p>
                 <ul className="resumeBullet">
                   <li>Collaborated on a next.js web app that connects to the Twitch API and database to help a user track their favorite streamers.
 </li>
-                  <li>Developed a custom API to obtain the twitch channel data from the Twitch API after a user enters a streamer's name.</li>
-                  <li>  Built a function to storage our Streamer data onto the Replit database. </li>
+                  <li>Developed a custom API  utilizing Replit  database to retrieve or insert or delete the twitch streamer data. </li>
+                  <li> Developed a custom grid to display all the streamer channels in a adequate manner.    </li>
                 </ul>
               </div>
 
               <div className="sectionInformation">
 
-                <h2 className="leftTitle">Weather </h2>
+                <h2 className="leftTitle">Weather <a href="https://ronaldo719.github.io/weatherAPI/" target="_blank"><i className="websiteLink"> Live Website</i></a>  </h2>
                 <p className="subInfo">
-                  <i> HTML, CSS, and JavaScript		</i>  - Fall 2021
+                  <i> HTML, CSS, and JavaScript	</i>  - Fall 2021
              </p>
                 <ul className="resumeBullet">
                   <li>Built a weather webapp to display the weather of major cities around the world by utilizing the MetaWeather API.
