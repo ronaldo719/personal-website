@@ -6,6 +6,7 @@ import { faDownload, faLocationDot, faFlagUsa, faGraduationCap, faCalendar, faSt
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import portfolioImg from "./images/portfolio.jpg"
 import profileImg from "./images/IMG_4184.jpeg"
+import resume from './myResume.docx'
 import Navbar from "./sections/Navbar";
 import Contact from './sections/Contact'
 
@@ -37,7 +38,7 @@ class App extends Component {
               <a href="https://github.com/ronaldo719" target="_blank"><FontAwesomeIcon className="socialLink" icon={faGithub} /> </a>
               <a href="https://www.linkedin.com/in/ronaldogarcia7/" target="_blank"><FontAwesomeIcon className="socialLink" icon={faLinkedin} /></a>
             </div>
-            <a href={portfolioImg} download="Ronaldo's Resume"><button className="aboutButtons" id="downloadResume">Resume <FontAwesomeIcon icon={faDownload} />
+            <a href={resume} download="Ronaldo's Resume"><button className="aboutButtons" id="downloadResume">Resume <FontAwesomeIcon icon={faDownload} />
             </button></a>
             <button className="aboutButtons"><a href="#contact">Contact</a></button>
           </div>
@@ -46,6 +47,7 @@ class App extends Component {
           <div className="rightSideAbout">
             <img className="profileImg" src={profileImg}></img>
           </div>
+
 
           <div className="leftSideAbout">
             <h2>About me</h2>
@@ -123,10 +125,10 @@ class App extends Component {
 
              </p>
                 <ul className="resumeBullet">
-                  <li>Built a webapp for my mother’s hair salon with an appointment schedular feature to allow clients to book appointments.
+                  <li>Designed a webapp for my mother’s hair salon with an appointment schedular feature to allow clients to book appointments.
 </li>
                   <li>Developed a rest API using Express.js to connect to my MongoDB database to store appointments.</li>
-                  <li> Im Twilio and EmailJS APIs to send SMS appointments confirmations and contact us emails.   </li>
+                  <li> Implemented i18next framework to make the site accessible to both Spanish and English clients.    </li>
                   <li> Utilized Twilio and EmailJS APIs to send SMS appointments confirmations and contact us emails.   </li>
                 </ul>
               </div>
@@ -140,7 +142,7 @@ class App extends Component {
                 <ul className="resumeBullet">
                   <li>ZooSeeker is an Android app allowing users to determine the optimal route to visit their desired exhibits at the San Diego Zoo with the least walking possible.
 </li>
-                  <li>	Responsible for implementing ---Developed a custom API to obtain the twitch channel data from the Twitch API after a user enters a streamer's name.</li>
+                  <li>	Implemented the database for the list of exhibits using RoomDatabase and the user interface of the list of exhibits.</li>
                   <li> Deployed agile development principles into practice using GitHub and ZenHub in order to allow team of 6 programmers to effectively work together to develop application.  </li>
                   <li> Built unit, integration, and systems tests in Android Studio through JUnit, Espresso, and Robolectric.</li>
                 </ul>
@@ -154,8 +156,8 @@ class App extends Component {
                 <ul className="resumeBullet">
                   <li>Collaborated on a next.js web app that connects to the Twitch API and database to help a user track their favorite streamers.
 </li>
-                  <li>Developed a custom API  utilizing Replit  database to retrieve or insert or delete the twitch streamer data. </li>
-                  <li> Developed a custom grid to display all the streamer channels in a adequate manner.    </li>
+                  <li>Developed a custom API  utilizing Replit  database to retrieve or insert or delete the twitch streamer data.  </li>
+                  <li> Devised a custom grid to display all the streamer channels in a adequate manner.       </li>
                 </ul>
               </div>
 
