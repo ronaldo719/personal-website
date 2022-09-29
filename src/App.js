@@ -121,7 +121,7 @@ class App extends Component {
 
                 <h2 className="leftTitle">Mary's Hair Cuts <a href="https://maryswebsite.netlify.app" target="_blank"><i className="websiteLink"> Live Website</i></a>  </h2>
                 <p className="subInfo">
-                  <i> (MERN) MongoDB, Express.js, React.js, Node.js		</i>  - Summer 2022
+                  <i> (MERN) MongoDB, Express.js, React.js, Node.js		</i>  - July 2022 - Present
 
              </p>
                 <ul className="resumeBullet">
