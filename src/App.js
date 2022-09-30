@@ -122,10 +122,9 @@ class App extends Component {
                 <h2 className="leftTitle">Mary's Hair Cuts <a href="https://maryswebsite.netlify.app" target="_blank"><i className="websiteLink"> Live Website</i></a>  </h2>
                 <p className="subInfo">
                   <i> (MERN) MongoDB, Express.js, React.js, Node.js		</i>  - July 2022 - Present
-
              </p>
                 <ul className="resumeBullet">
-                  <li>Designed a webapp for my mother’s hair salon with an appointment schedular feature to allow clients to book appointments.
+                  <li>Designed a webapp for Mary’s Hair Salon with an appointment schedular feature to allow clients to book appointments.
 </li>
                   <li>Developed a rest API using Express.js to connect to my MongoDB database to store appointments.</li>
                   <li> Implemented i18next framework to make the site accessible to both Spanish and English clients.    </li>
