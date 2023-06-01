@@ -32,7 +32,7 @@ class App extends Component {
             <p className="aboutDescription">I'm a senior majoring in <strong>Computer Science</strong> at the <strong>University of California, San Diego</strong>.
           <br></br>
               <br></br>
-          In my free time,you can catch me on the field playing soccer, at the beach, or exploring beautiful San Diego.
+          In my free time, you can catch me on the field playing soccer, at the beach, or exploring beautiful San Diego.
                     </p>
             <div className="socialLinks">
               <a href="https://github.com/ronaldo719" target="_blank"><FontAwesomeIcon className="socialLink" icon={faGithub} /> </a>
