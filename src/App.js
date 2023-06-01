@@ -121,14 +121,13 @@ class App extends Component {
 
                 <h2 className="leftTitle">Mary's Hair Cuts <a href="https://maryswebsite.netlify.app" target="_blank"><i className="websiteLink"> Live Website</i></a>  </h2>
                 <p className="subInfo">
-                  <i> (MERN) MongoDB, Express.js, React.js, Node.js		</i>  - July 2022 - Present
+                  <i>React.js, Node.js		</i>  - July 2022 - Present
              </p>
                 <ul className="resumeBullet">
-                  <li>Designed a webapp for Mary’s Hair Salon with an appointment schedular feature to allow clients to book appointments.
+                  <li>Designed a webapp for Mary’s Hair Cuts.
 </li>
-                  <li>Developed a rest API using Express.js to connect to my MongoDB database to store appointments.</li>
                   <li> Implemented i18next framework to make the site accessible to both Spanish and English clients.    </li>
-                  <li> Utilized Twilio and EmailJS APIs to send SMS appointments confirmations and contact us emails.   </li>
+                  <li> Utilized EmailJS APIs for contact us emails.   </li>
                 </ul>
               </div>
 
@@ -139,8 +138,7 @@ class App extends Component {
                   <i> Java, Android, GIT, Junit		</i>  - Spring 2022
              </p>
                 <ul className="resumeBullet">
-                  <li>ZooSeeker is an Android app allowing users to determine the optimal route to visit their desired exhibits at the San Diego Zoo with the least walking possible.
-</li>
+                  <li>ZooSeeker is an Android app allowing users to determine the optimal route to visit their desired exhibits at the San Diego Zoo with the least walking possible.</li>
                   <li>	Implemented the database for the list of exhibits using RoomDatabase and the user interface of the list of exhibits.</li>
                   <li> Deployed agile development principles into practice using GitHub and ZenHub in order to allow team of 6 programmers to effectively work together to develop application.  </li>
                   <li> Built unit, integration, and systems tests in Android Studio through JUnit, Espresso, and Robolectric.</li>
