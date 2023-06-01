@@ -60,7 +60,7 @@ class App extends Component {
 
             <div class="aboutGrid">
               <div class="div1"><FontAwesomeIcon icon={faLocationDot} />  <span className="bulletPoints"> <strong className="bulletTitles">Location:</strong> San Diego, CA</span></div>
-              <div class="div2"><FontAwesomeIcon icon={faCalendar} />  <span className="bulletPoints"> <strong className="bulletTitles"> Age:</strong> 22</span> </div>
+              <div class="div2"><FontAwesomeIcon icon={faCalendar} />  <span className="bulletPoints"> <strong className="bulletTitles"> Age:</strong> 23</span> </div>
               <div class="div3"><FontAwesomeIcon icon={faFlagUsa} /> <span className="bulletPoints">  <strong className="bulletTitles">Nationality: </strong>American</span></div>
               <div class="div4"> <FontAwesomeIcon icon={faStar} />  <span className="bulletPoints"> <strong className="bulletTitles">Interests:</strong> Soccer, Hiking, House of the Dragons</span></div>
               <div class="div5"><FontAwesomeIcon icon={faGraduationCap} /> <span className="bulletPoints"> <strong className="bulletTitles"> Study:</strong> Univisty of California, San Diego</span> </div>
@@ -79,7 +79,7 @@ class App extends Component {
                 <p className="subInfo">
                   <i>University of California, San Diego </i>  - March 2023
                   <br></br>
-                  GPA: 3.4
+                  GPA: 3.2
              </p>
 
               </div>
