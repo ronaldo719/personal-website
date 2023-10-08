@@ -3,7 +3,7 @@ a {
      text-decoration: none;
 }
 
-.aboutContainer {
+.homepage{
   position: relative;
   width: 100%;
   height: 100vh;
@@ -11,36 +11,42 @@ a {
 
 .portfolioImg {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   object-fit: cover;
-
+  overflow: hidden;
 }
 
-.aboutInfo {
-  position: absolute;
-  top:30%;
-  width: 90%;
+img {
+  max-width: 100%;
   height: auto;
-  margin: 0 1rem;
+}
+
+.intro_text {
+  position: absolute;
+  top: 25%;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
   color: white;
   align-items: center;
-  backdrop-filter: blur(4px);
-  background-color: rgba(31, 41, 55, 0.4);
-  border-radius: 10px;
-  padding: 1.5rem;
+  /* backdrop-filter: blur(4px); */
+  /* background-color: rgba(31, 41, 55, 0.4); */
+  /* border-radius: 10px; */
+  /* padding: 1.5rem; */
 }
 
 .nameTitle {
-  margin:0;
-  font-size:4.5rem;
-  line-height: 1;
+  margin: 0 auto 1rem auto;
+  font-size: 5rem;
+  line-height: 90px;
   font-weight: 700;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 
 .aboutDescription {
   font-size: 1.1rem;
   line-height: 1.5;
-}
+} 
 
 
 .profileImg {
@@ -51,8 +57,8 @@ a {
 
 .socialLink {
   color: white;
-  font-size: 1.5rem;
-  padding: 0.75rem;
+  font-size: 2rem;
+  padding: 0 1rem 1rem 1rem;
   transition-duration: .3s;
 }
 
@@ -300,21 +306,18 @@ i {
   background-color: rgb(23, 23, 23);
   padding: 3rem 2rem;
   text-align: center;
-  align-items: center;
-  justify-content: center;
 }
 
-.footerSocial {
-  padding: 0 calc(40%);
-}
+
 
 .footerSocial ul {
     margin: 0;
     padding: 0;
-    display: flex;
+    text-align: center;
 }
 
 .footerSocial li {
+  display: inline-block;
   list-style: none;
   line-height: 2rem;
 
@@ -342,6 +345,7 @@ i {
   font-size: 0.9rem;
   line-height: 1.2rem;
   color: rgba(64,64,64);
+  text-align: center;
 }
 
 /* Smartphones (portrait and landscape) ----------- */
@@ -447,9 +451,6 @@ i {
   padding-bottom: 1.5rem;
 }
 
-.footerSocial {
-  padding: 0 calc(30%);
-}
 
 }
 
@@ -551,9 +552,6 @@ i {
   padding-bottom: 1.5rem;
 }
 
-.footerSocial {
-  padding: 0 calc(30%);
-}
 
 }
 

@@ -61,8 +61,8 @@ export default function Contact() {
                 </div>
                 <div className="contactLeftSide">
                     <ul>
-                        <li><FontAwesomeIcon icon={faEnvelope} className="contactList" /><a href="mailto:rgarciahernandez.ucsd.edu">rgarciahernandez.ucsd.edu</a></li>
-                        <li><FontAwesomeIcon icon={faLocationDot} className="contactList" /><a >San Diego, CA</a></li>
+                        <li><FontAwesomeIcon icon={faEnvelope} className="contactList" /><a href="mailto:ronaldogarcia7077@gmail.com">ronaldogarcia7077@gmail.com</a></li>
+                        <li><FontAwesomeIcon icon={faLocationDot} className="contactList" /><a >Boston, MA</a></li>
                         <li><FontAwesomeIcon className="contactList" icon={faGithub} /> <a href="https://github.com/ronaldo719" target="_blank">ronaldo719</a></li>
                         <li><FontAwesomeIcon className="contactList" icon={faLinkedin} /><a href="https://www.linkedin.com/in/ronaldogarcia7/" target="_blank">ronaldogarcia7</a></li>
                     </ul>

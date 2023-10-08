@@ -4,32 +4,45 @@ nav {
 
 .nav {
     position: fixed;
-    display: flex;
+    top: 0;
+    left: 0;
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    margin: 0 auto;
     background-color: hsla(0,0%,9%,.5);
     backdrop-filter: blur(8px);
     color: white;
     z-index: 50; 
+    height: auto;
 }
 
-
+#nav_line {
+    position: relative;
+    width: 100%;
+    border: 1px solid #e3e3e3;
+    border-width: 1px 0 0;
+    clear: both;
+}
 
 .navbar-links {
+    width: auto;
     font-size: 1rem;
-    padding: 0 calc(20%);
+    text-align: center;
     line-height: 1.5rem;
     font-weight: 700;
+    height: auto;
+    letter-spacing: 2px;
 }
 
 .navbar-links ul {
     margin: 0;
     padding: 0;
-    display: flex;
+    text-align: center;
 }
 
 .navbar-links li {
+    display: inline-block;
     list-style: none;
 }
 
@@ -41,32 +54,53 @@ nav {
     transition-duration: .3s;
 }
 
+.banner_content {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.banner_text {
+  color: white;
+  flex-grow: 1;
+  text-align: center;
+  letter-spacing: 2.5px;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+#connect_link {
+  color: #11ABB0;
+}
+
+.banner_close {
+  background: none;
+  border: none;
+  position: relative;
+  color: white;
+  font-size: 1.5rem;
+}
+
 .navbar-links li a:hover {
     color:rgb(249, 115, 22);
 }
 
-@media (min-width:500px) { 
+@media screen and (min-width:300px) and (max-width:500px){ 
 
     .navbar-links {
-        padding: 0 calc(30%);
+       font-size: 0.9rem;
+       line-height: 1rem;
+       letter-spacing: 1px;
+    }
+
+    .banner_text {
+        font-size: 0.7rem;
+        letter-spacing: 1.5px;
+    }
+
+    .banner_close {
+        font-size: 1.2rem;
     }
 
 }
 
-@media (min-width:700px) { 
-
-
-.navbar-links {
-    padding: 0 calc(35%);
-}
-
-}
-
-@media (min-width:1000px) { 
-
-
-.navbar-links {
-    padding: 0 calc(40%);
-}
-
-}
