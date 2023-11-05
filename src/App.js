@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faDownload, faLocationDot, faFlagUsa, faGraduationCap, faCalendar, faStar, faXmark, faBuilding } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
-import portfolioImg from "./images/header-background.jpg"
+import backgroundImg from "./images/header-background.jpg"
 import profileImg from "./images/IMG_4184.jpeg"
 import resume from './myResume.pdf'
 import Navbar from "./sections/Navbar";
@@ -18,7 +18,7 @@ function App() {
     <>
       <Navbar></Navbar>
       <div className="homepage">
-        <img className="portfolioImg" src={portfolioImg} alt="background image of man looking at the sky"></img>
+        <img className="portfolioImg" src={backgroundImg} alt="background image of man looking at the sky"></img>
         <div className="intro_text">
           <h1 className="nameTitle">Ronaldo Garcia</h1>
           <p className="aboutDescription">I'm a <strong>Software Engineer</strong> at <strong>Mastercard</strong> in Boston, specializing in problem-solving within the .NET stack of our platform.</p>
