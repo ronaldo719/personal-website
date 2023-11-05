@@ -5,7 +5,6 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import { faDownload, faLocationDot, faFlagUsa, faGraduationCap, faCalendar, faStar, faXmark, faBuilding } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 import portfolioImg from "./images/header-background.jpg"
-import profileImg from "./images/IMG_4184.jpeg"
 import resume from './myResume.pdf'
 import Navbar from "./sections/Navbar";
 import Contact from './sections/Contact'
